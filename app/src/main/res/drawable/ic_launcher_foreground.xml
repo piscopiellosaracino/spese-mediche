@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Foglio -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,28h26l10,10v42a2,2 0,0 1,-2 2H36a2,2 0,0 1,-2 -2V30a2,2 0,0 1,2 -2z" />
+    <path
+        android:fillColor="#B2DFDB"
+        android:pathData="M62,28v10h10z" />
+    <!-- Croce -->
+    <path
+        android:fillColor="#00796B"
+        android:pathData="M49,44h6v7h7v6h-7v7h-6v-7h-7v-6h7z" />
+    <!-- Righe -->
+    <path
+        android:fillColor="#80CBC4"
+        android:pathData="M42,70h24v3H42zM42,75h16v3H42z" />
+</vector>
