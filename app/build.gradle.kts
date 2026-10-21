@@ -17,6 +17,16 @@ android {
         versionName = "1.0"
     }
 
+    // Firma fissa: gli APK compilati in momenti diversi si aggiornano a vicenda senza perdere i dati
+    signingConfigs {
+        getByName("debug") {
+            storeFile = file("debug.keystore")
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = false
